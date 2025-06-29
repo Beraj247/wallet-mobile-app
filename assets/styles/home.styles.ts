@@ -36,6 +36,8 @@ export const styles = StyleSheet.create({
     marginBottom: 2,
   },
   usernameText: {
+    textOverflow: 'ellipsis',
+    width: 85,
     fontSize: 16,
     fontWeight: "600",
     color: COLORS.text,
